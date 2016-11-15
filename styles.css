@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.header {
+  margin:auto;
+  padding:0px;
+  width: 100%;
+  height:45px;
+  background-color:white;
+ /* border:1px solid yellow; */
+  text-align: center;
+}
+
+.logo {
+  display:inline-block;
+}
+
+.nav {
+  display: inline-block;
+  font-family:arial;
+  height:45px;
+  width:600px;
+  /*border:1px solid red;*/
+  margin:auto;
+  vertical-align: top;
+}
+
+.nav div {
+  display: inline-block;
+  border-right: 1px solid black;
+  padding: 15px 50px;
+ }
+
+.field {
+  background-image: url(https://s14.postimg.org/v6lx0wtrl/field.gif);
+  background-repeat: no-repeat;
+  height:612px;
+  background-position: top center;
+  max-width:1186px;
+  width: 100%;
+  margin:auto;
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+
+.forwards-container {
+  padding-top: 80px;
+  height: auto;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  margin:auto;
+  color: white;
+
+}
+.midfielders-container {
+  height: auto;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  margin:auto;
+  color: white;
+}
+.defenders-container {
+  height: auto;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  margin:auto;
+  color: white;
+}
+
+.goalie-container {
+  height: auto;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  margin:auto;
+  color: white;
+}
+
+.cards {
+  background-image: url(images/player-samples/95C636EC4F3E4109AC080C8CB5087433.jpg);
+  display: inline-block;
+  margin: 20px 10px;
+  height: 80px;
+  width: 60px;
+  border-radius: 3px;
+  background-color: orange;
+}
+
+.player-card {
+  height: 300px;
+  width: 200px;
+  background-color: yellow;
+  margin: auto;
+  display: none;
+
+}
+
+.forward-hover {
+  width: 1083px;
+  height: 125px;
+  background-color: #1cbbb4;
+  margin: auto;
+  opacity: 0;
+  z-index: 0;
+  color: white;
+  font-size: 150px;
+  font-weight: 400;
+  font-family: arial;
+
+margin-top: -500px;
+}
+.mid-hover {
+  width: 1083px;
+  height: 125px;
+  background-color: #1cbbb4;
+  margin: auto;
+  opacity: 0;
+  color: white;
+  font-size: 150px;
+  font-weight: 400;
+  font-family: arial;
+}
+.defense-hover {
+  width: 1083px;
+  height: 125px;
+  background-color: #1cbbb4;
+  margin: auto;
+  opacity: 0;
+  color: white;
+  font-size: 150px;
+  font-weight: 400;
+  font-family: arial;
+}
+.goalie-hover {
+  width: 1083px;
+  height: 125px;
+  background-color: #1cbbb4;
+  margin: auto;
+  opacity: 0;
+    color: white;
+  font-size: 150px;
+  font-weight: 400;
+  font-family: arial;
+}
+
+.bottom-hr {
+  border-top: 1px solid white;
+  margin-top: -50px;
+  width: 100%;
+  display: block;
+}
+
+.flex {
+  color:white;
+  display: flex;
+  align-items: stretch;
+}
+
+.flex > div {
+  padding: 20px;
+  background-color: red;
+  margin: 10px;
+}
+
+
+
+// questions
+// Why are nested elements going outside of the div? Ie. header - set verticalalign bottom to see. Do divs not have to stay with in the parent?
+- if you don't have a H/W on the container, the container will be the size of the contents. Otherwise, you can set "overflow: auto". If you want it flexible container, don't set a HW.
+// why do elements align with the bottom? Can they align with the top or something else? ie. nav text aligns w the bottom of the logo.
+// best way to vertically aign? padding?
+// how do i really make it full screen - remove slight padding?
