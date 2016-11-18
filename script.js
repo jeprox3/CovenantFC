@@ -10,6 +10,7 @@ $(document).ready(function(){
 function playerCard(player){
   $('.player-card').fadeIn('slow');
   $('#featuredCard').attr('src', 'gif/' + player + '.gif');
+  $('.player-card').css('background-image', 'url(gif/' + player + '.gif)');
 }
 
 
