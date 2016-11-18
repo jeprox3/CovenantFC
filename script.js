@@ -9,7 +9,7 @@ $(document).ready(function(){
 
 function playerCard(player){
   $('.player-card').fadeIn('slow');
-  $('#featuredCard').attr('src', '/Users/jeffd/Google Drive/website/videos/' + player + '.gif');
+  $('#featuredCard').attr('src', 'gif/' + player + '.gif');
 }
 
 
