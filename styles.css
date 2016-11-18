@@ -50,36 +50,48 @@ body {
   padding-top: 80px;
   height: auto;
   max-width: 400px;
-  width: 100%;
+  width: auto;
   text-align: center;
   margin:auto;
   color: white;
+  display: inline-block;
+  position: relative;
+  z-index: 500;
 
 }
 .midfielders-container {
   height: auto;
   max-width: 400px;
-  width: 100%;
+  width: auto;
   text-align: center;
   margin:auto;
   color: white;
+  display: inline-block;
+  position: relative;
+  z-index: 500;
 }
 .defenders-container {
   height: auto;
   max-width: 400px;
-  width: 100%;
+  width: auto;
   text-align: center;
   margin:auto;
   color: white;
+  display: inline-block;
+  position: relative;
+  z-index: 500;
 }
 
 .goalie-container {
   height: auto;
   max-width: 400px;
-  width: 100%;
+  width: auto;
   text-align: center;
   margin:auto;
   color: white;
+  display: inline-block;
+  position: relative;
+  z-index: 500;
 }
 
 .cards {
@@ -93,11 +105,20 @@ body {
 }
 
 .player-card {
-  height: 300px;
-  width: 200px;
+  height: 380px;
+  width: 280px;
   background-color: yellow;
   margin: auto;
   display: none;
+  position: absolute;
+    left: 50%;
+  z-index: 600;
+  margin-left: -145px;
+  margin-top: 130px;
+  overflow: hidden;
+  border-radius: 5px;
+  border: 5px solid white;
+  box-shadow: 0px 0px 40px #000000;
 
 }
 
