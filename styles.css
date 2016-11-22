@@ -47,7 +47,7 @@ body {
 }
 
 .forwards-container {
-  padding-top: 80px;
+  padding-top: 65px;
   height: auto;
   max-width: 400px;
   width: auto;
@@ -95,14 +95,22 @@ body {
 }
 
 .cards {
-  background-image: url(images/player-samples/95C636EC4F3E4109AC080C8CB5087433.jpg);
   display: inline-block;
   margin: 20px 10px;
   height: 80px;
   width: 60px;
   border-radius: 3px;
-  background-color: orange;
+  background-size: contain;
+  border: 2px solid orange;
 }
+
+.close_btn {
+  position: absolute; 
+    left: 50%; 
+  margin-left: 100px;
+  margin-top: 3px;
+}
+
 
 .player-card {
   height: 380px;
