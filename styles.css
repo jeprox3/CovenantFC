@@ -138,9 +138,10 @@ body {
   color: white;
   font-size: 150px;
   font-weight: 400;
-  margin-top: 200px;
   font-family: Arial;
   margin-top: -500px;
+  line-height: 1;
+  padding: 0;
 
 }
 
