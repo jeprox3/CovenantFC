@@ -138,11 +138,11 @@ body {
   color: white;
   font-size: 150px;
   font-weight: 400;
-  font-family: Arial;
+  font-family: 'Kaushan Script', cursive;
   margin-top: -500px;
-  line-height: 1;
+  line-height: .8;
   padding: 0;
-
+  overflow: auto;
 }
 
 .test {
