@@ -22,7 +22,8 @@ body {
   display: inline-block;
   font-family:arial;
   height:45px;
-  width:600px;
+  max-width:600px;
+  width: 100%;
   /*border:1px solid red;*/
   margin:auto;
   vertical-align: top;
