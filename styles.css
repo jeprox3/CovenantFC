@@ -138,7 +138,9 @@ body {
   z-index: 0;
   display: table;
   color: white;
-  margin-top: -510px;
+  margin-top: -210px;
+  font-family: 'Kaushan Script', cursive;
+
 }
 
 .test {
