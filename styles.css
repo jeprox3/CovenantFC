@@ -105,8 +105,8 @@ body {
 }
 
 .close_btn {
-  position: absolute; 
-    left: 50%; 
+  position: absolute;
+    left: 50%;
   margin-left: 100px;
   margin-top: 3px;
 }
@@ -139,8 +139,6 @@ body {
   display: table;
   color: white;
   margin-top: -510px;
-  
-  vertical-align: text-top;
 }
 
 .test {
@@ -150,7 +148,7 @@ body {
   margin-top: -200px;
   border: 1px solid yellow;
   padding-top: 0px;
-  display: table-cell; 
+  display: table-cell;
 }
 
 .mid-hover {
