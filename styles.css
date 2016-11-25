@@ -135,9 +135,10 @@ body {
   background-color: #1cbbb4;
   margin: auto;
   opacity: 0;
-  z-index: 0;
   color: white;
-  margin-top: 210px;
+  font-size: 150px;
+  font-weight: 400;
+  margin-top: 200px;
   font-family: 'Kaushan Script', cursive;
 
 }
