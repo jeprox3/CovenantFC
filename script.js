@@ -14,6 +14,12 @@ function playerCard(player){
 }
 
 
+function playerInfo(player){
+  $('.player-info').fadeIn('slow');
+  $('#featuredCard').attr('src', 'gif/' + player + '.gif');
+  $('.player-card').css('background-image', 'url(gif/' + player + '.gif)');
+}
+
 //forward hover//
 
 $(document).ready(function(){
@@ -34,7 +40,7 @@ $(document).ready(function(){
 
 
 
-//mid fielder hover//
+//midfielder hover//
 
 $(document).ready(function(){
     $('.mid-hover').mouseover(function(){

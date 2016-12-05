@@ -5,7 +5,6 @@ body {
 }
 
 .header {
-  margin:auto;
   padding:0px;
   width: 100%;
   height:45px;
@@ -25,7 +24,6 @@ body {
   max-width:600px;
   width: 100%;
   /*border:1px solid red;*/
-  margin:auto;
   vertical-align: top;
 }
 
@@ -48,7 +46,7 @@ body {
 }
 
 .forwards-container {
-  padding-top: 65px;
+  padding-top: 60px;
   height: auto;
   max-width: 400px;
   width: auto;
@@ -101,7 +99,7 @@ body {
   height: 80px;
   width: 60px;
   border-radius: 3px;
-  background-size: contain;
+  background-size: cover;
   border: 2px solid orange;
 }
 
@@ -112,6 +110,14 @@ body {
   margin-top: 3px;
 }
 
+.logo-small {
+  position: absolute;
+    left: 50%;
+  height: 50px;
+  width: auto;
+  margin-left: -135px;
+  margin-top: 5px;
+}
 
 .player-card {
   height: 380px;
@@ -122,72 +128,113 @@ body {
   position: absolute;
     left: 50%;
   z-index: 600;
-  margin-left: -145px;
-  margin-top: 130px;
-  border-radius: 5px;
-  border: 5px solid white;
+  margin-left: -150.5px;
+  margin-top: 120px;
+  border-radius: 1px;
+  border: 8px solid white;
   box-shadow: 0px 0px 40px #000000;
   background-size: cover;
 }
 
+.player-info {
+  height: 14px;
+  width: 280px;
+  background-color: black;
+  border-bottom: 2px solid #c07627;
+  margin: auto;
+  color: black;
+  margin-top: 325px;
+
+}
+
+.player-name {
+  display: block;
+  margin: auto;
+  color: #dbd9d9;
+  font-size: 28px;
+  padding: 0 10px;
+  line-height: .3;
+  font-family: 'Kaushan Script', cursive;
+  letter-spacing: 3px;
+}
+
+/*.player-number {
+  display: inline-block;
+  border: 1px solid red;
+  margin: auto;
+  color: #dbd9d9;
+  vertical-align: bottom;
+  font-size: 28px;
+  padding: 0 12px;
+  line-height: .85;
+  margin-top: -50px;
+  font-family: 'Kaushan Script', cursive;
+}*/
+
+.player-position {
+  color: white;
+  font-family: 'Arimo', sans-serif;
+  font-size: 12px;
+  padding-top: 18px;
+  letter-spacing: 4px;
+}
+
 .forward-hover {
   max-width: 1083px;
-  height: 125px;
+  height: 128px;
   background-color: #1cbbb4;
   margin: auto;
   opacity: 0;
   color: white;
-  font-size: 150px;
+  font-size: 130px;
   font-weight: 400;
   font-family: 'Kaushan Script', cursive;
-  margin-top: -500px;
-  line-height: .8;
+  margin-top: -514px;
+  line-height: .9;
   padding: 0;
-  overflow: auto;
+  overflow: none;
 }
 
-.test {
-  font-size: 150px;
-  font-weight: 400;
-  font-family: 'Kaushan Script', cursive;
-  margin-top: -200px;
-  border: 1px solid yellow;
-  padding-top: 0px;
-  display: table-cell;
-}
 
 .mid-hover {
   max-width: 1083px;
-  height: 125px;
+  height: 128px;
   background-color: #1cbbb4;
   margin: auto;
   opacity: 0;
   color: white;
-  font-size: 150px;
-  font-weight: 400;
-  font-family: arial;
+  font-size: 130px;
+  font-weight: 600;
+  font-family: 'Playfair Display SC', serif;
+  line-height: .85;
+  padding: 0;
+  overflow: none;
+
 }
 .defense-hover {
   max-width: 1083px;
-  height: 125px;
+  height: 128px;
   background-color: #1cbbb4;
   margin: auto;
   opacity: 0;
   color: white;
-  font-size: 150px;
+  font-size: 110px;
   font-weight: 400;
-  font-family: arial;
+  font-family: 'Goblin One', cursive;
 }
 .goalie-hover {
   max-width: 1083px;
-  height: 125px;
+  height: 128px;
   background-color: #1cbbb4;
   margin: auto;
   opacity: 0;
   color: white;
-  font-size: 150px;
+  font-size: 136px;
   font-weight: 400;
-  font-family: arial;
+  font-family: alpenkreuzer;
+  line-height: 1;
+  padding: 0;
+  overflow: none;
 }
 
 .bottom-hr {
