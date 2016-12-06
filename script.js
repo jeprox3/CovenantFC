@@ -7,18 +7,25 @@ $(document).ready(function(){
 });
 
 
-function playerCard(player){
+function playerCard(player, name, position, number){
   $('.player-card').fadeIn('slow');
-  $('#featuredCard').attr('src', 'gif/' + player + '.gif');
+  $('#player-name').html(name);
+  $('#player-position').html(position);
+  $('#player-number').html(number);
   $('.player-card').css('background-image', 'url(gif/' + player + '.gif)');
+
+  if(position == "Forward") {
+    $('#player-name').removeClass();
+    $('#player-name').addClass('forward-text');
+  } else if (position == "Goalie") {
+    $('#player-name').removeClass();
+    $('#player-name').addClass('goalie-text');
+  }
 }
 
 
-function playerInfo(player){
-  $('.player-info').fadeIn('slow');
-  $('#featuredCard').attr('src', 'gif/' + player + '.gif');
-  $('.player-card').css('background-image', 'url(gif/' + player + '.gif)');
-}
+
+
 
 //forward hover//
 

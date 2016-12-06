@@ -2,6 +2,8 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <script type="text/javascript" src="jquery-3.1.1.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
     <link rel="stylesheet" href="styles.css">
@@ -25,16 +27,10 @@
           <div class="player-card">
             <img class="logo-small" src="https://s3.postimg.org/bmjubdcar/cov_logo.png"/>
             <img class="close_btn" src="images/close_btn.png" height="10%" width="13%"/>
-            
-            <div class="player-info" onclick="playerInfo('justinb')">
-              <div class="player-name">Justin Burt</div>
-              <div class="player-position">FORWARD  #15</div>
-            </div>
 
-
-            <div class="player-info" onclick="playerInfo('nickd')">
-              <div class="player-name">Nick DiBattista</div>
-              <div class="player-position">FORWARD  #15</div>
+            <div class="player-info">
+              <div id="player-name" class="player-name"></div>
+              <div class="player-position"><span id="player-position"></span> <span id="player-number"></span></div>
             </div>
 
 
@@ -43,7 +39,7 @@
 
           <div class="forwards-container">
             <div class="cards" onclick="playerCard('justinb');" style="background-image: url(static/justin-static.gif);"></div>
-            <div class="cards" onclick="playerCard('nickd');" style="background-image: url(static/nick-static.gif);"></div>
+            <div class="cards" onclick="playerCard('nickd', 'Nick D', 'Forward', '#15');" style="background-image: url(static/nick-static.gif);"></div>
           </div><br>
         <!--midfielders-->
           <div class="midfielders-container">
@@ -61,7 +57,7 @@
           </div><br>
         <!--goalie-->
           <div class="goalie-container">
-            <div class="cards" onclick="playerCard('jeffd');" style="background-image: url(static/jeff-static.gif);"></div>
+            <div class="cards" onclick="playerCard('jeffd', 'Jeff Davis', 'Goalie', '#1');" style="background-image: url(static/jeff-static.gif);"></div>
           </div>
 
           <div class="forward-hover">FORWARDS</div>
