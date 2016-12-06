@@ -19,7 +19,7 @@ body {
 
 .nav {
   display: inline-block;
-  font-family:arial;
+  font-family: "alpenkreuzer";
   height:45px;
   max-width:600px;
   width: 100%;
@@ -29,8 +29,20 @@ body {
 
 .nav div {
   display: inline-block;
-  border-right: 1px solid black;
   padding: 15px 50px;
+  border-right: 1px solid;
+     -webkit-border-image:
+      -webkit-gradient(linear, 0 100%, 0 0, from(black), to(rgba(0, 0, 0, 0))) 1 100%;
+    -webkit-border-image:
+      -webkit-linear-gradient(bottom, black, rgba(0, 0, 0, 0)) 1 100%;
+    -moz-border-image:
+      -moz-linear-gradient(bottom, black, rgba(0, 0, 0, 0)) 1 100%;
+    -o-border-image:
+      -o-linear-gradient(bottom, black, rgba(0, 0, 0, 0)) 1 100%;
+    border-image:
+      linear-gradient(to top, black, rgba(0, 0, 0, 0)) 1 100%;
+  height: 15px;
+
  }
 
 .field {
@@ -98,7 +110,7 @@ body {
   margin: 20px 10px;
   height: 80px;
   width: 60px;
-  border-radius: 3px;
+  border-radius: 1px;
   background-size: cover;
   border: 2px solid orange;
 }
@@ -151,10 +163,10 @@ body {
   display: block;
   margin: auto;
   color: #dbd9d9;
-  font-size: 28px;
+  font-size: 20px;
   padding: 0 10px;
   line-height: .3;
-  font-family: 'Kaushan Script', cursive;
+  font-family: 'alpenkreuzer', cursive;
   letter-spacing: 3px;
 }
 
