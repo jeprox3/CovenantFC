@@ -7,20 +7,10 @@ $(document).ready(function(){
 });
 
 
-function playerCard(player, name, position, number){
+function playerCard(player){
   $('.player-card').fadeIn('slow');
-  $('#player-name').html(name);
-  $('#player-position').html(position);
-  $('#player-number').html(number);
   $('.player-card').css('background-image', 'url(gif/' + player + '.gif)');
 
-  if(position == "Forward") {
-    $('#player-name').removeClass();
-    $('#player-name').addClass('forward-text');
-  } else if (position == "Goalie") {
-    $('#player-name').removeClass();
-    $('#player-name').addClass('goalie-text');
-  }
 }
 
 
