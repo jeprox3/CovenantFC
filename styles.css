@@ -19,7 +19,7 @@ body {
 
 .nav {
   display: inline-block;
-  font-family:arial;
+  font-family: "Arimo";
   height:45px;
   max-width:600px;
   width: 100%;
@@ -31,12 +31,12 @@ body {
   display: inline-block;
   padding: 15px 50px;
   border-right: 1px solid;
-     -webkit-border-image: 
+     -webkit-border-image:
       -webkit-gradient(linear, 0 100%, 0 0, from(black), to(rgba(0, 0, 0, 0))) 1 100%;
-    -webkit-border-image: 
+    -webkit-border-image:
       -webkit-linear-gradient(bottom, black, rgba(0, 0, 0, 0)) 1 100%;
     -moz-border-image:
-      -moz-linear-gradient(bottom, black, rgba(0, 0, 0, 0)) 1 100%;  
+      -moz-linear-gradient(bottom, black, rgba(0, 0, 0, 0)) 1 100%;
     -o-border-image:
       -o-linear-gradient(bottom, black, rgba(0, 0, 0, 0)) 1 100%;
     border-image:
@@ -44,6 +44,7 @@ body {
   height: 15px;
 
  }
+
 
 .field {
   background-image: url(https://s14.postimg.org/v6lx0wtrl/field.gif);
@@ -54,7 +55,7 @@ body {
   width: 100%;
   margin:auto;
   text-align: center;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid red;
 }
 
 .forwards-container {
@@ -140,7 +141,7 @@ body {
   position: absolute;
     left: 50%;
   z-index: 600;
-  margin-left: -150.5px;
+  margin-left: -148px;
   margin-top: 120px;
   border-radius: 1px;
   border: 8px solid white;
@@ -154,42 +155,11 @@ body {
   background-color: black;
   border-bottom: 2px solid #c07627;
   margin: auto;
-  color: black;
   margin-top: 325px;
 
 }
 
-.player-name {
-  display: block;
-  margin: auto;
-  color: #dbd9d9;
-  font-size: 20px;
-  padding: 0 10px;
-  line-height: .3;
-  font-family: 'alpenkreuzer', cursive;
-  letter-spacing: 3px;
-}
 
-/*.player-number {
-  display: inline-block;
-  border: 1px solid red;
-  margin: auto;
-  color: #dbd9d9;
-  vertical-align: bottom;
-  font-size: 28px;
-  padding: 0 12px;
-  line-height: .85;
-  margin-top: -50px;
-  font-family: 'Kaushan Script', cursive;
-}*/
-
-.player-position {
-  color: white;
-  font-family: 'Arimo', sans-serif;
-  font-size: 12px;
-  padding-top: 18px;
-  letter-spacing: 4px;
-}
 
 .forward-hover {
   max-width: 1083px;
@@ -264,8 +234,67 @@ body {
   height: 100px;
 }
 
+#player-name {
+  display: block;
+  margin: auto;
+  letter-spacing: 3px;
+  color: #d8d8d8;
+}
 
+/*.player-number {
+  display: inline-block;
+  border: 1px solid red;
+  margin: auto;
+  color: #dbd9d9;
+  vertical-align: bottom;
+  font-size: 28px;
+  padding: 0 12px;
+  line-height: .85;
+  margin-top: -50px;
+  font-family: 'Kaushan Script', cursive;
+}*/
 
+.player-position {
+  color: white;
+  font-family: 'Arimo', sans-serif;
+  font-size: 12px;
+  padding-top: 12px;
+  line-height: 0;
+  letter-spacing: 4px;
+}
+
+.forward-text {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 30px;
+  color: #d8d8d8;
+  padding-bottom: 3px;
+  margin-top: -40px!important;
+}
+
+.midfielder-text {
+  font-family: 'Playfair Display SC', cursive;
+  font-size: 25px;
+  padding-bottom: 6px;
+  color: #d8d8d8;
+  margin-top: -35px!important;
+}
+
+.defense-text {
+  font-family: 'Goblin One', cursive;
+  font-size: 20px;
+  padding-bottom: 8px;
+  margin-top: -48px!important;
+  color: #d8d8d8;
+  line-height: 1.1;
+}
+
+.goalie-text {
+  font-family: 'alpenkreuzer', cursive;
+  font-size: 22px;
+  padding-bottom: 5px;
+  color: #d8d8d8;
+  margin-top: -26px!important;
+}
 
 // questions
 // Why are nested elements going outside of the div? Ie. header - set verticalalign bottom to see. Do divs not have to stay with in the parent?

@@ -7,10 +7,26 @@ $(document).ready(function(){
 });
 
 
-function playerCard(player){
+function playerCard(player, name, position, number){
   $('.player-card').fadeIn('slow');
+  $('#player-name').html(name);
+  $('#player-position').html(position);
+  $('#player-number').html(number);
   $('.player-card').css('background-image', 'url(gif/' + player + '.gif)');
 
+  if(position == "FORWARD") {
+    $('#player-name').removeClass();
+    $('#player-name').addClass('forward-text');
+  } else if (position == "MIDFIELDER") {
+    $('#player-name').removeClass();
+    $('#player-name').addClass('midfielder-text');
+  } else if (position == "DEFENSE") {
+    $('#player-name').removeClass();
+    $('#player-name').addClass('defense-text');
+  } else if (position == "GOALIE") {
+    $('#player-name').removeClass();
+    $('#player-name').addClass('goalie-text');
+  }
 }
 
 
