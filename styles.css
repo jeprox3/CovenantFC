@@ -286,6 +286,7 @@ body {
   margin-top: -48px!important;
   color: #d8d8d8;
   line-height: 1.1;
+  border: 1px solid red;
 }
 
 .goalie-text {
