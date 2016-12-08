@@ -212,8 +212,8 @@ body {
   opacity: 0;
   color: white;
   font-size: 136px;
-  font-weight: 400;
-  font-family: alpenkreuzer;
+  font-weight: 900;
+  font-family: 'Bungee', sans-serif;
   line-height: 1;
   padding: 0;
   overflow: none;
@@ -289,11 +289,12 @@ body {
 }
 
 .goalie-text {
-  font-family: 'alpenkreuzer', cursive;
+  font-family: 'Bungee', sans-serif;
   font-size: 22px;
-  padding-bottom: 5px;
+  padding-bottom: 0px;
+  line-height: 2.1;
   color: #d8d8d8;
-  margin-top: -26px!important;
+  margin-top: -41px!important;
 }
 
 // questions
