@@ -321,7 +321,6 @@ body {
   .nav div {
     height:25px;
     padding: 10px 15px 0px;
-    border: 1px solid red;
   }
 
   .nav {
@@ -330,6 +329,5 @@ body {
     height:25px;
     border-top: 1px solid black;
     padding: 0 0;
-    border: 1px solid yellow;
   }
 }
