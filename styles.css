@@ -30,6 +30,22 @@ body {
   vertical-align: top;
 }
 
+.home {
+
+border-left: 1px solid;
+     -webkit-border-image:
+      -webkit-gradient(linear, 0 100%, 0 0, from(black), to(rgba(0, 0, 0, 0))) 1 100%;
+    -webkit-border-image:
+      -webkit-linear-gradient(bottom, black, rgba(0, 0, 0, 0)) 1 100%;
+    -moz-border-image:
+      -moz-linear-gradient(bottom, black, rgba(0, 0, 0, 0)) 1 100%;
+    -o-border-image:
+      -o-linear-gradient(bottom, black, rgba(0, 0, 0, 0)) 1 100%;
+    border-image:
+      linear-gradient(to top, black, rgba(0, 0, 0, 0)) 1 100%;
+  height: 15px;
+}
+
 .nav div {
   display: inline-block;
   padding: 15px 40px;
@@ -272,30 +288,27 @@ body {
   font-family: 'Kaushan Script', cursive;
   font-size: 30px;
   color: #d8d8d8;
-  padding-bottom: 3px;
+  padding-bottom: 1px;
 }
 
 .midfielder-text {
   font-family: 'Playfair Display SC', cursive;
   font-size: 25px;
-  padding-bottom: 6px;
-  color: #d8d8d8;
+  padding-bottom: 3px;
 }
 
 .defense-text {
   font-family: 'Goblin One', cursive;
   font-size: 20px;
-  padding-bottom: 8px;
-  color: #d8d8d8;
+  padding-bottom: 3px;
   line-height: 1.1;
-  border: 1px solid red;
 }
 
 .goalie-text {
   font-family: 'Bungee', sans-serif;
   font-size: 22px;
-  padding-bottom: 0px;
-  line-height: 2.1;
+  padding-bottom: 6px;
+  line-height: .7;
 }
 
 
@@ -305,16 +318,7 @@ body {
     height: 145px;
   }
 
-  .forward-hover {
-    display: none;
-  }
-
-  .mid-hover,
-  .defense-hover {
-    display: none;
-  }
-
-  .goalie-hover {
+  .forward-hover, .mid-hover, .defense-hover, .goalie-hover {
     display: none;
   }
 
@@ -325,6 +329,8 @@ body {
 
   .nav {
     display: block;
+    width: 100%;
+    max-width: 1083px;
     margin: 0 auto;
     height:25px;
     border-top: 1px solid black;
