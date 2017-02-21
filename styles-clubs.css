@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #383838;
+  background-color: #323232;
 
   /* to truly make it full screen*/
 }
@@ -90,16 +90,22 @@ border-left: 1px solid;
   vertical-align: top;
 }
 
-.vr-top {
+.vr-container {
+  height: 50px;
+  width: 1084px;
+  display: block;
+  margin: auto;
+}
+
+.vr-bar {
+  position: relative;
   height: 50px;
   width: 10px;
-  background-color: red;
-  display: block;
 }
+
 .hr-top {
   width: 1084px;
   height: 10px;
-  background-color: #0C3C5F;
   margin: auto;
   margin-bottom: 15px;
 }
@@ -116,7 +122,6 @@ border-left: 1px solid;
 .hr-bottom {
   width: 1084px;
   height: 10px;
-  background-color: #fab329;
   margin: auto;
   margin-top: 15px;
 }
@@ -127,6 +132,13 @@ border-left: 1px solid;
   background-color: #ffffff;
   margin: auto;
   margin-top: 15px;
+}
+
+.jersey {
+  position: relative;
+    top: -470px;
+    left: 860px;
+    z-index: 5000;
 }
 
 /* Media Queries */
