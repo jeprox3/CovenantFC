@@ -75,7 +75,7 @@ $(document).ready(function(){
 
 
 
-//defense
+//defense hover
 
 $(document).ready(function(){
     $('.defense-hover').mouseover(function(){
@@ -112,4 +112,35 @@ $(document).ready(function(){
 
     });
 
+});
+
+
+
+//clubs page//
+
+$(document).ready(function(){
+    $('#aweber-badge-small').hover(function(){
+        $('#aweber-badge-large').slideToggle('slow')
+    });
+});
+
+
+$(document).ready(function(){
+    $('#covenant-badge-small').hover(function(){
+        $('#covenant-badge-large').slideToggle('slow')
+    });
+});
+
+
+$(document).ready(function(){
+    $('#fbc-badge-small').hover(function(){
+        $('#fbc-badge-large').slideToggle('slow')
+    });
+});
+
+
+$(document).ready(function(){
+    $('#profc-badge-small').hover(function(){
+        $('#profc-badge-large').slideToggle('slow')
+    });
 });

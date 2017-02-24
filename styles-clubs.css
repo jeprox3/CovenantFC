@@ -1,15 +1,19 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #323232;
+  background-color: #2B2B2B;
 
   /* to truly make it full screen*/
+}
+
+a {
+  text-decoration: none;
 }
 
 .header {
   padding:0px;
   width: 100%;
-  height:60px;
+  height:45px;
   background-color:white;
   text-align: center;
 }
@@ -31,7 +35,6 @@ body {
 }
 
 .home {
-
 border-left: 1px solid;
      -webkit-border-image:
       -webkit-gradient(linear, 0 100%, 0 0, from(black), to(rgba(0, 0, 0, 0))) 1 100%;
@@ -43,12 +46,12 @@ border-left: 1px solid;
       -o-linear-gradient(bottom, black, rgba(0, 0, 0, 0)) 1 100%;
     border-image:
       linear-gradient(to top, black, rgba(0, 0, 0, 0)) 1 100%;
-  height: 12px;
+  height: 18px;
 }
 
 .nav div {
   display: inline-block;
-  padding: 25px 40px;
+  padding: 15px 40px;
   border-right: 1px solid;
      -webkit-border-image:
       -webkit-gradient(linear, 0 100%, 0 0, from(black), to(rgba(0, 0, 0, 0))) 1 100%;
@@ -60,7 +63,7 @@ border-left: 1px solid;
       -o-linear-gradient(bottom, black, rgba(0, 0, 0, 0)) 1 100%;
     border-image:
       linear-gradient(to top, black, rgba(0, 0, 0, 0)) 1 100%;
-  height: 12px;
+  height: 18px;
 
  }
 
@@ -77,18 +80,70 @@ border-left: 1px solid;
 .outer-badge {
   display: block;
   margin: auto;
-  max-width: 800px;
   width: auto;
+  max-width: 800px;
 }
 
-.inner-badge {
-  display: inline-block;
-  padding: 0 24px;
-  margin: auto;
-  max-width: 600px;
-  height: 150px;
-  vertical-align: top;
+.outer-badge2{
+  position: absolute;
+  left: 50%;
+  margin-left: -400px;
+  top: 160px;
+  width: auto;
+  max-width: 800px;
+  z-index: 6000;
 }
+
+ #aweber-badge-large {
+  display: none;
+    position: absolute;
+  left: 50%;
+  margin-left: -400px;
+  top: 145px;
+  width: auto;
+  max-width: 800px;
+  z-index: 6000;
+}
+
+#covenant-badge-large {
+  display: none;
+    position: absolute;
+  left: 50%;
+  margin-left: -199px;
+  top: 145px;
+  width: auto;
+  max-width: 800px;
+  z-index: 6000;
+}
+
+#fbc-badge-large {
+  display: none;
+    position: absolute;
+  left: 50%;
+  margin-left: 02px;
+  top: 145px;
+  width: auto;
+  max-width: 800px;
+  z-index: 6000;
+}
+
+#profc-badge-large {
+  display: none;
+    position: absolute;
+  left: 50%;
+  margin-left: 203px;
+  top: 145px;
+  width: auto;
+  max-width: 800px;
+  z-index: 6000;
+}
+
+.inner-badge{
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 24px;
+}
+
 
 .vr-container {
   height: 50px;
@@ -139,6 +194,7 @@ border-left: 1px solid;
     top: -470px;
     left: 860px;
     z-index: 5000;
+    max-width: 200px;
 }
 
 /* Media Queries */
