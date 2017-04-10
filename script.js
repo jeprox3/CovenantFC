@@ -118,29 +118,18 @@ $(document).ready(function(){
 
 //clubs page//
 
-$(document).ready(function(){
-    $('#aweber-badge-small').hover(function(){
-        $('#aweber-badge-large').slideToggle('slow')
-    });
-});
 
-
-$(document).ready(function(){
-    $('#covenant-badge-small').hover(function(){
-        $('#covenant-badge-large').slideToggle('slow')
-    });
-});
-
+function badgeHover(team){
+  $('#'+team+'-badge').mouseenter(function() {
+    $('#'+team+'-badge .inner-badge__lg').slideDown('slow');
+  }).mouseleave(function() {
+    $('#'+team+'-badge .inner-badge__lg').slideUp('slow');
+  });
+}
 
 $(document).ready(function(){
-    $('#fbc-badge-small').hover(function(){
-        $('#fbc-badge-large').slideToggle('slow')
-    });
-});
-
-
-$(document).ready(function(){
-    $('#profc-badge-small').hover(function(){
-        $('#profc-badge-large').slideToggle('slow')
-    });
+  badgeHover('aweber');
+  badgeHover('covenant');
+  badgeHover('fbc');
+  badgeHover('profc');
 });
