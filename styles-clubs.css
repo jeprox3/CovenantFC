@@ -220,12 +220,12 @@ border-left: 1px solid;
     max-width: 200px;
 }
 
-.mobile-logos {
+.mobile-icon-container {
   display: block;
   height: auto;
   width: 100%;
   text-align: center;
-  margin-top: 200px;
+  margin-top:145px;
   padding: 0px;
   font-size: 0px;
 }
