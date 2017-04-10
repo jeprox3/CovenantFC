@@ -136,12 +136,32 @@ border-left: 1px solid;
   width: auto;
   max-width: 800px;
   z-index: 6000;
+
 }
 
 .inner-badge{
   display: inline-block;
   vertical-align: top;
-  padding: 0 24px;
+  margin: 0 24px;
+}
+
+.inner-badge {
+  height: 149px;
+  width: 149px;
+}
+
+.inner-badge__sm,
+.inner-badge__lg {
+  position: absolute; // position absolute with no left,right,top, or bottom defined defaults to top: 0 left: 0
+}
+
+.inner-badge__lg {
+  Display: none;
+  Width: 149px;
+}
+
+.inner-badge--show {
+  Display:block !important;
 }
 
 
@@ -165,6 +185,10 @@ border-left: 1px solid;
   margin-bottom: 15px;
 }
 
+.banner-container {
+  display: block;
+  margin: auto;
+}
 .banner {
   height: auto;
   width: 1084px;
@@ -184,18 +208,40 @@ border-left: 1px solid;
 .info-bottom {
   width: 1084px;
   height: 100px;
-  background-color: #ffffff;
   margin: auto;
   margin-top: 15px;
 }
 
 .jersey {
   position: relative;
-    top: -470px;
-    left: 860px;
+    top: -510px;
+    left: 910px;
     z-index: 5000;
     max-width: 200px;
 }
+
+.mobile-logos {
+  display: block;
+  height: auto;
+  width: 100%;
+  text-align: center;
+  margin-top: 200px;
+  padding: 0px;
+  font-size: 0px;
+}
+
+.mobile-icon {
+  display: inline-block;
+  width: 25%;
+  font-size: 0px;
+}
+
+.mobile-icon img {
+  padding: 10px 0;
+  width: 70%;
+}
+
+
 
 /* Media Queries */
 @media only screen and (max-width: 800px) {
