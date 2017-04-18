@@ -1,8 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #2B2B2B;
-
+  background-color: #ffffff;
   /* to truly make it full screen*/
 }
 
@@ -220,6 +219,7 @@ border-left: 1px solid;
     max-width: 200px;
 }
 
+
 .mobile-icon-container {
   display: block;
   height: auto;
@@ -228,6 +228,7 @@ border-left: 1px solid;
   margin-top:145px;
   padding: 0px;
   font-size: 0px;
+  border: 4px solid yellow;
 }
 
 .mobile-icon {
@@ -239,6 +240,22 @@ border-left: 1px solid;
 .mobile-icon img {
   padding: 10px 0;
   width: 70%;
+}
+
+.mobile-team {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: auto%;
+  padding-bottom: 0px!important;
+  margin-bottom: 0px!important;
+}
+
+.mobile-team img {
+  width: 100%;
+  padding-bottom: 0px!important;
+  margin-bottom: 0px!important;
 }
 
 
