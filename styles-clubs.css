@@ -242,19 +242,12 @@ border-left: 1px solid;
 }
 
 .mobile-team {
-  position: absolute;
-  right: 0px;
-  bottom: 0px;
   width: 100%;
   height: auto%;
-  padding-bottom: 0px!important;
-  margin-bottom: 0px!important;
 }
 
 .mobile-team img {
   width: 100%;
-  padding-bottom: 0px!important;
-  margin-bottom: 0px!important;
 }
 
 
