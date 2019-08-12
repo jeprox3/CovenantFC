@@ -3,7 +3,7 @@
     var pokemon = prompt("What Pokemon would you like to battle?", "Lugia");
 
 
-    var normalType = ["Farfetchd", "Dodrio", "Wigglytuff", "Raticate", "Persian", "Lickitung", "Chansey", "Kangaskhan", "Tauros", "Ditto", "Porygon", "Snorlax", "Togepi", "Togetic", "Aipom", "Granbull", "Ursaring", "Porygon2", "Stantler", "Smeargle", "Miltank", "Blissey", "Zigzagoon", "Linoone", "Swellow", "Slakoth", "Vigoroth", "Slaking", "Whismur", "Loudred", "Exploud", "Skitty", "Delcatty", "Spinda", "Swablu", "Zangoose", "Castform", "Kecleon", "Starly", "Staravia", "Staraptor", "Bidoof", "Bibarel", "Ambipom", "Buneary", "Lopunny", "Glameow", "Purugly", "Happiny", "Chatot", "Munchlax", "Lickilicky", "Togekiss", "Porygon-Z", "Regigigas", "Arceus"];
+    var normalType = ["Farfetchd", "Dodrio", "Wigglytuff", "Raticate", "Persian", "Lickitung", "Eevee", "Chansey", "Kangaskhan", "Tauros", "Ditto", "Porygon", "Snorlax", "Togepi", "Togetic", "Aipom", "Granbull", "Ursaring", "Porygon2", "Stantler", "Smeargle", "Miltank", "Blissey", "Zigzagoon", "Linoone", "Swellow", "Slakoth", "Vigoroth", "Slaking", "Whismur", "Loudred", "Exploud", "Skitty", "Delcatty", "Spinda", "Swablu", "Zangoose", "Castform", "Kecleon", "Starly", "Staravia", "Staraptor", "Bidoof", "Bibarel", "Ambipom", "Buneary", "Lopunny", "Glameow", "Purugly", "Happiny", "Chatot", "Munchlax", "Lickilicky", "Togekiss", "Porygon-Z", "Regigigas", "Arceus"];
 
     var fightingType = ["Mewtwo", "Poliwrath", "Blaziken", "Primeape", "Machamp", "Heracross", "Hitmonlee", "Hitmonchan", "Tyrogue", "Hitmontop", "Breloom", "Makuhita", "Hariyama", "Meditite", "Medicham", "Monferno", "Infernape", "Lopunny", "Riolu", "Lucario", "Croagunk", "Toxicroak", "Gallade", "Pignite"];
 
@@ -11,7 +11,7 @@
     
     var groundType = ["Golem", "Rhydon", "Steelix", "Nidoqueen", "Nidoking", "Sandslash", "Marowak", "Quagsire", "Gligar", "Swinub", "Donphan", "Marshtomp", "Swampert", "Nincada", "Numel", "Camerupt", "Trapinch", "Vibrava", "Flygon", "Barboach", "Whiscash", "Baltoy", "Claydol", "Groudon", "Torterra", "Wormadam", "Gastrodon", "Gible", "Gabite", "Garchomp", "Hippopotas", "Hippowdon", "Rhyperior", "Gliscor", "Mamoswine"];
 
-    var poisonType = ["Gengar", "Venusaur", "Crobat", "Weezing", "Muk", "Golbat", "Nidoqueen", "Nidoking", "Tentacruel", "Vileplume", "Victreebel", "Arbok", "Nidorino", "Roselia", "Gulpin", "Swalot", "Seviper", "Budew", "Roserade", "Stunky", "Skuntank", "Skorupi", "Drapion", "Croagunk", "Toxicroak"];
+    var poisonType = ["Gengar", "Venusaur", "Crobat", "Weezing", "Muk", "Golbat", "Nidoqueen", "Nidoking", "Tentacruel", "Vileplume", "Victreebel", "Arbok", "Bulbasaur", "Nidorino", "Roselia", "Gulpin", "Swalot", "Seviper", "Budew", "Roserade", "Stunky", "Skuntank", "Skorupi", "Drapion", "Croagunk", "Toxicroak"];
 
     var rockType = ["Tyranitar", "Golem", "Rhydon", "Omastar", "Aerodactyl", "Kabutops", "Corsola", "Aron", "Lairon", "Aggron", "Lunatone", "Solrock", "Lileep", "Cradily", "Anorith", "Armaldo", "Relicanth", "Regirock", "Cranidos", "Rampardos", "Shieldon", "Bastiodon", "Bonsly", "Rhyperior", "Probopass"];
 
@@ -23,9 +23,9 @@
 
     var fireType = ["Entei", "Ho-Oh", "Blaziken", "Moltres", "Charizard", "Ninetales", "Arcanine", "Rapidash", "Magmar", "Flareon", "Magcargo", "Houndoom", "Magby", "Numel", "Camerupt", "Torkoal", "Castform", "Groudon", "Chimchar", "Monferno", "Infernape", "Magmortar", "Rotom", "Heatran", "Victini", "Tepig", "Pignite"];
 
-    var waterType = ["Gyarados", "Lapras", "Vaporeon", "Omastar", "Kabutops", "Blastoise","Feraligatr", "Golduck", "Poliwrath", "Tentacruel", "Dewgong", "Cloyster", "Kingler", "Seadra", "Seaking", "Chinchou", "Lanturn", "Marill", "Azumarill", "Politoed", "Wooper", "Quagsire", "Slowking", "Qwilfish", "Corsola", "Remoraid", "Octillery", "Mantine", "Kingdra", "Suicune", "Mudkip", "Marshtomp", "Swampert", "Lotad", "Lombre", "Ludicolo", "Wingull", "Pelipper", "Surskit", "Carvanha", "Sharpedo", "Wailmer", "Wailord", "Barboach", "Whiscash", "Corphish", "Crawdaunt", "Feebas", "Milotic", "Castform", "Spheal", "Sealeo", "Walrein", "Clamperl", "Huntail", "Gorebyss", "Relicanth", "Luvdisc", "Kyogre", "Piplup", "Prinplup", "Empoleon", "Bibarel", "Buizel", "Floatzel", "Shellos", "Gastrodon", "Finneon", "Lumineon", "Mantyke", "Rotom", "Palkia", "Phione", "Manaphy"];
+    var waterType = ["Gyarados", "Lapras", "Vaporeon", "Omastar", "Kabutops", "Blastoise","Feraligatr", "Golduck", "Poliwrath", "Tentacruel", "Dewgong", "Squirtle", "Cloyster", "Kingler", "Seadra", "Seaking", "Chinchou", "Lanturn", "Marill", "Azumarill", "Politoed", "Wooper", "Quagsire", "Slowking", "Qwilfish", "Corsola", "Remoraid", "Octillery", "Mantine", "Kingdra", "Suicune", "Mudkip", "Marshtomp", "Swampert", "Lotad", "Lombre", "Ludicolo", "Wingull", "Pelipper", "Surskit", "Carvanha", "Sharpedo", "Wailmer", "Wailord", "Barboach", "Whiscash", "Corphish", "Crawdaunt", "Feebas", "Milotic", "Castform", "Spheal", "Sealeo", "Walrein", "Clamperl", "Huntail", "Gorebyss", "Relicanth", "Luvdisc", "Kyogre", "Piplup", "Prinplup", "Empoleon", "Bibarel", "Buizel", "Floatzel", "Shellos", "Gastrodon", "Finneon", "Lumineon", "Mantyke", "Rotom", "Palkia", "Phione", "Manaphy"];
 
-    var grassType = ["Coming Soon"];
+    var grassType = ["Coming Soon", "Venusaur", "Bulbasaur",];
 
     var electricType = ["Raikou", "Zapdos", "Magneton", "Raichu", "Electrode", "Electabuzz", "Jolteon", "Pikachu", "Magnemite", "Elekid", "Electrike", "Manectric", "Plusle", "Minun", "Shinx", "Luxio", "Luxray", "Pachirisu", "Magnezone", "Electivire", "Rotom"];
 
