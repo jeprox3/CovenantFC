@@ -1,5 +1,6 @@
 
 
+
     var pokemon = prompt("What Pokemon would you like to battle?", "Lugia");
 
 
@@ -49,107 +50,74 @@
 
 
 
-    if (normalType.indexOf(pokemon )>=0) {
-        document.write("You should use " + fightingType.slice(0,6).join(" or "));
+    if (normalType.indexOf(pokemon.toUpperCase())>=0) {
+        document.write("</br> You have selected a Normal Tpye Pokemon. You should use a Fighting Type against them, such as " + fightingType.slice(0,6).join(" or "));
     } 
-    else if (fightingType.indexOf(pokemon )>=0) {
-        document.write("You should use " + flyingType.slice(0,8).join(" or "));
+     if (fightingType.indexOf(pokemon)>=0) {
+        document.write("</br> You have selected a Fighting Tpye Pokemon. You should use a Flyinging Type against them, such as " + flyingType.slice(0,8).join(" or "));
         /* or psychic*/
     }
-    else if (flyingType.indexOf(pokemon )>=0) {
-        document.write("You should use " + electricType.slice(0,8).join(" or "));
+     if (flyingType.indexOf(pokemon )>=0) {
+        document.write("</br> You have selected a Flying Tpye Pokemon. You should use a Electric Type against them, such as " + electricType.slice(0,8).join(" or "));
         /* or ice or rock*/
     }
-    else if (poisonType.indexOf(pokemon )>=0) {
-        document.write("You should use " + groundType.slice(0,8).join(" or "));
+    if (poisonType.indexOf(pokemon )>=0) {
+        document.write("</br> You have selected a Poison Tpye Pokemon. You should use a Ground Type against them, such as " + groundType.slice(0,8).join(" or "));
         /* or psychic*/
     }
-    else if (groundType.indexOf(pokemon )>=0) {
-        document.write("You should use " + waterType.slice(0,8).join(" or "));
+    if (groundType.indexOf(pokemon )>=0) {
+        document.write("</br> You have selected a Ground Tpye Pokemon. You should use a Water Type against them, such as " + waterType.slice(0,8).join(" or "));
         /* or grass or ice*/
     }
-    else if (rockType.indexOf(pokemon )>=0) {
-        document.write("You should use " + fightingType.slice(0,8).join(" or "));
+    if (rockType.indexOf(pokemon )>=0) {
+        document.write("</br> You have selected a Rock Tpye Pokemon. You should use a Fighting Type against them, such as " + fightingType.slice(0,8).join(" or "));
         /* or steel or water or grass or ground*/
     }
-    else if (bugType.indexOf(pokemon )>=0) {
-        document.write("You should use " + flyingType.slice(0,8).join(" or "));
+    if (bugType.indexOf(pokemon )>=0) {
+        document.write("</br> You have selected a bug Tpye Pokemon. You should use a Flying Type against them, such as " + flyingType.slice(0,8).join(" or "));
         /* or rock or flying*/
     }
-    else if (ghostType.indexOf(pokemon )>=0) {
-        document.write("You should use " + darkType.slice(0,8).join(" or "));
+    if (ghostType.indexOf(pokemon )>=0) {
+        document.write("</br> You have selected a Ghost Tpye Pokemon. You should use a Dark Type against them, such as " + darkType.slice(0,8).join(" or "));
     }
-    else if (steelType.indexOf(pokemon )>=0) {
-        document.write("You should use " + fightingType.slice(0,8).join(" or "));
-        /* or flying or ground or fire*/
+    if (steelType.indexOf(pokemon )>=0) {
+        document.write("</br> You have selected a Steel Tpye Pokemon. You should use a Flying Type against them, such as " + flyingType.slice(0,8).join(" or "));
+        /* or fighting or ground or fire*/
     }
-    else if (fireType.indexOf(pokemon )>=0) {
-        document.write("You should use " + waterType.slice(0,8).join(" or "));
+    if (fireType.indexOf(pokemon )>=0) {
+        document.write("</br> You have selected a Normal Tpye Pokemon. You should use a Fighting Type against them, such as " + waterType.slice(0,8).join(" or "));
     }
         // or rock or water
-    else if (waterType.indexOf(pokemon )>=0) {
-        document.write("You should use " + electricType.slice(0,8).join(" or "));
+    if (waterType.indexOf(pokemon )>=0) {
+        document.write("</br> You have selected a Water Tpye Pokemon. You should use a Electric Type against them, such as " + electricType.slice(0,8).join(" or "));
         //or grass
     }    
-    else if (grassType.indexOf(pokemon )>=0) {
-        document.write("You should use " + flyingType.slice(0,8).join(" or "));
+    if (grassType.indexOf(pokemon )>=0) {
+        document.write("</br> You have selected a grass Tpye Pokemon. You should use a Flying Type against them, such as " + flyingType.slice(0,8).join(" or "));
         //or fire or flying or poison
     }
-    else if (electricType.indexOf(pokemon )>=0) {
-        document.write("You should use " + groundType.slice(0,8).join(" or "));
+    if (electricType.indexOf(pokemon )>=0) {
+        document.write("</br> You have selected a Electric Tpye Pokemon. You should use a Ground Type against them, such as " + groundType.slice(0,8).join(" or "));
     }
-    else if (psychicType.indexOf(pokemon )>=0) {
-        document.write("You should use " + ghostType.slice(0,8).join(" or "));
+    if (psychicType.indexOf(pokemon )>=0) {
+        document.write("</br> You have selected a Psychic Tpye Pokemon. You should use a Ghost Type against them, such as " + ghostType.slice(0,8).join(" or "));
         // or bug or dark
     }
-    else if (iceType.indexOf(pokemon )>=0) {
-        document.write("You should use " + fireType.slice(0,8).join(" or "));
+    if (iceType.indexOf(pokemon )>=0) {
+        document.write("</br> You have selected an Ice Tpye Pokemon. You should use a Fire Type against them, such as " + fireType.slice(0,8).join(" or "));
         // or fire or steel or rock
     }
-    else if (dragonType.indexOf(pokemon )>=0) {
-        document.write("You should use " + iceType.slice(0,8).join(" or "));
+    if (dragonType.indexOf(pokemon )>=0) {
+        document.write("</br> You have selected a Dragon Tpye Pokemon. You should use an Ice Type against them, such as " + iceType.slice(0,8).join(" or "));
         // or fairy
     }
-    else if (darkType.indexOf(pokemon )>=0) {
-        document.write("You should use " + bugType.slice(0,8).join(" or "));
+    if (darkType.indexOf(pokemon )>=0) {
+        document.write("</br> You have selected a Dark Tpye Pokemon. You should use a Bug Type against them, such as " + bugType.slice(0,8).join(" or "));
         // or fighting    
     }
-    else if (fairyType.indexOf(pokemon )>=0) {
-        document.write("You should use " + poisonType.slice(0,8).join(" or "));
+    if (fairyType.indexOf(pokemon )>=0) {
+        document.write("</br> You have selected a Fairy Tpye Pokemon. You should use a Poison Type against them, such as " + poisonType.slice(0,8).join(" or "));
         // or steel
     }
 
 
-/*
-var normalType = ["Pidgey", "Pidgeotto", "Pidgeot", "Spearow", "Fearow", "Farfetchd", "Doduo", "Dodrio", "Jigglypuff", "Wigglytuff", "Rattata", "Raticate", "Meowth", "Persian", "Lickitung", "Chansey", "Kangaskhan", "Tauros", "Ditto", "Eevee", "Porygon", "Snorlax"];
-
-var fightingType = ["Poliwrath", "Mankey", "Primeape", "Machop", "Machoke", "Machamp", "Hitmonlee", "Hitmonchan"];
-
-var flyingType = ["Pidgey", "Pidgeotto", "Pidgeot", "Spearow", "Fearow", "Farfetchd", "Doduo", "Dodrio", "Zubat", "Golbat", "Aerodactyl", "Butterfree", "Scyther", "Charizard", "Moltres", "Gyarados", "Zapdos", "Articuno", "Dragonite"];
-
-var poinsonType = ["Zubat", "Golbat", "Nidoqueen", "Nidoking", "Weedle", "Kakuna", "Beedrill", "Venonat", "Venomoth", "Gastly", "Haunter", "Gengar", "Tentacool", "Tentacruel", "Bulbasaur", "Ivysaur", "Venusaur", "Oddish", "Gloom", "Vileplume", "Bellsprout", "Weepinbell", "Victreebel", "Ekans", "Arbok", "Nidoran", "Nidorina", "Nidorino", "Grimer", "Muk", "Koffing", "Weezing"];
-
-var groundType = ["Nidoqueen", "Nidoking", "Geodude", "Graveler", "Golem", "Onix", "Rhyhorn", "Rhydon", "Sandshrew", "Sandslash", "Diglett", "Dugtrio", "Cubone", "Marowak"];
-
-var rockType = ["Aerodactyl", "Geodude", "Graveler", "Golem", "Onix", "Rhyhorn", "Rhydon", "Omanyte", "Omastar", "Kabuto", "Kabutops"];
-
-var bugType = ["Butterfree", "Scyther", "Weedle", "Kakuna", "Beedrill", "Venonat", "Venomoth", "Paras", "Parasect", "Caterpie", "Metapod", "Pinsir"];
-
-var ghostType = ["Gastly", "Haunter", "Gengar"];
-
-var steelType = ["Magnemite", "Megneton"];
-
-var fireType = ["Moltres", "Charizard", "Charmander", "Charmeleon", "Vulpix", "Ninetales", "Growlithe", "Arcanine", "Ponyta", "Rapidash", "Magmar", "Flareon"];
-
-var waterType = ["Poliwrath", "Gyarados", "Tentacool", "Tentacruel", "Omanyte", "Omastar", "Kabuto", "Kabutops", "Slowpoke", "Slowbro", "Starmie", "Dewgong", "Cloyster", "Lapras", "Squirtle", "Wartortle", "Blastoise", "Psyduck", "Golduck", "Poliwag", "Poliwhirl", "Seel", "Shellder", "Krabby", "Kingler", "Horsea", "Seadra", "Goldeen", "Seaking", "Staryu", "Magikarp", "Vaporeon"];
-
-var electricType = ["Zapdos", "Magnemite", "Magneton", "Pikachu", "Raichu", "Voltorb", "Electrode", "Electabuzz", "Jolteon"];
-
-var psychicType = ["Slowpoke", "Slowbro", "Starmie", "Exeggcute", "Exeggutor", "Jynx", "Mr-mime", "Abra", "Kadabra", "Alakazam", "Drowzee", "Hypno", "Mewtwo"];
-
-var iceType = ["Jynx", "Articuno", "Dewgong", "Cloyster", "Lapras"];
-
-var dragonType = ["Dragonite", "Dratini", "Dragonair"]
-
-var fairyType= ["Mr-mime", "Jigglypuff", "Wigglytuff", "Clefairy", "Clefable"];
-*/
