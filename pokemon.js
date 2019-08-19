@@ -4,7 +4,7 @@
     var pokemon = prompt("What Pokemon would you like to battle?", "Lugia");
 
 
-    var normalType = ["Farfetchd", "Dodrio", "Wigglytuff", "Raticate", "Persian", "Lickitung", "Pidgey", "Eevee", "Chansey", "Kangaskhan", "Tauros", "Ditto", "Porygon", "Snorlax", "Togepi", "Togetic", "Aipom", "Granbull", "Ursaring", "Porygon2", "Stantler", "Smeargle", "Miltank", "Blissey", "Zigzagoon", "Linoone", "Swellow", "Slakoth", "Vigoroth", "Slaking", "Whismur", "Loudred", "Exploud", "Skitty", "Delcatty", "Spinda", "Swablu", "Zangoose", "Castform", "Kecleon", "Starly", "Staravia", "Staraptor", "Bidoof", "Bibarel", "Ambipom", "Buneary", "Lopunny", "Glameow", "Purugly", "Happiny", "Chatot", "Munchlax", "Lickilicky", "Togekiss", "Porygon-Z", "Regigigas", "Arceus"];
+    var normalType = ["Snorlax", "Farfetchd", "Dodrio", "Wigglytuff", "Raticate", "Persian", "Lickitung", "Pidgey", "Eevee", "Chansey", "Kangaskhan", "Tauros", "Ditto", "Porygon", "Togepi", "Togetic", "Aipom", "Granbull", "Ursaring", "Porygon2", "Stantler", "Smeargle", "Miltank", "Blissey", "Zigzagoon", "Linoone", "Swellow", "Slakoth", "Vigoroth", "Slaking", "Whismur", "Loudred", "Exploud", "Skitty", "Delcatty", "Spinda", "Swablu", "Zangoose", "Castform", "Kecleon", "Starly", "Staravia", "Staraptor", "Bidoof", "Bibarel", "Ambipom", "Buneary", "Lopunny", "Glameow", "Purugly", "Happiny", "Chatot", "Munchlax", "Lickilicky", "Togekiss", "Porygon-Z", "Regigigas", "Arceus"];
 
     var fightingType = ["Mewtwo", "Poliwrath", "Blaziken", "Primeape", "Machamp", "Heracross", "Hitmonlee", "Hitmonchan", "Tyrogue", "Hitmontop", "Breloom", "Makuhita", "Hariyama", "Meditite", "Medicham", "Monferno", "Infernape", "Lopunny", "Riolu", "Lucario", "Croagunk", "Toxicroak", "Gallade", "Pignite"];
 
@@ -50,7 +50,7 @@
 
 
 
-    if (normalType.indexOf(pokemon.toUpperCase())>=0) {
+    if (normalType.indexOf(pokemon)>=0) {
         document.write("</br> You have selected a Normal Tpye Pokemon. You should use a Fighting Type against them, such as " + fightingType.slice(0,6).join(" or "));
     } 
      if (fightingType.indexOf(pokemon)>=0) {
