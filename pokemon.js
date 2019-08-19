@@ -36,7 +36,7 @@
 
     var dragonType = ["Dragonite", "Dratini", "Dragonair", "Kingdra", "Sceptile", "Vibrava", "Flygon", "Altaria", "Bagon", "Shelgon", "Salamence", "Latias", "Latios", "Rayquaza", "Gible", "Gabite", "Garchomp", "Dialga", "Palkia", "Giratina"];
 
-    var darkType = ["Coming Soon"];
+    var darkType = ["Tyranitar", "Houndoom", "Muk", "Gyarados", "Umbreon", "Mightyena", "Sneasel", "Rattata", "Raticate", "Meowth", "Persian", "Grimer", "Murkrow", "Houndour", "Poochyena", "Nuzleaf", "Shiftry", "Sableye", "Carvanha", "Sharpedo", "Sharpedo", "Cacturne", "Crawdaunt", "Absol", "Honchkrow", "Stunky", "Skuntank", "Spiritomb", "Drapion", "Weavile", "Darkrai", "Purrloin", "Liepard", "Sandile", "Krokorok", "Krookodile", "Scraggy", "Pawniard", "Bisharp", "Vullaby", "Mandibuzz", "Deino", "Zweilous", "Hydreigon", "Pangoro", "Inkay", "Malamar", "Yveltal", "Hoopa", "Incineroar", "Guzzlord"];
 
     var fairyType= ["Wigglytuff", "Clefable", "Granbull", "Mr-mime", "Jigglypuff", "Clefairy", "Snubbull", "Ralts", "Kirlia", "Gardevoir", "Azurill", "Mawile", "Altaria", "Mime Jr.", "Togekiss"];
     
