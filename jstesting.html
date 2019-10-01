@@ -3,45 +3,47 @@
 <html>
 
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
 </head>
 <button> this is a test </button><br>
+
 <body <h1>Click on the text you want to change</h1>
-<p id="line1"> This one</p>
-<p id="line2"> Or this one </p>
-<p id="line3"> Or this one </p>
-<p id="line4"> Or this one </p>
-<p id="line5"> Or this one </p>
-<form id="styleForm" style="display: none; width:100px; font-size: 15px; border: 1px solid black; padding: 10px; border-radius: 10px">
-<button id="fontUp" value="fontUp">Font size +</button><br><br>
-<button id="fontDown" value="fontDown">Font size -</button><br><br>
-<input id="bold" type="checkbox" value="bold"> Bold</checkbox>
-</form>
-<script>
-var fontSize = 15;
+	<p id="line1"> This one</p>
+	<p id="line2"> Or this one </p>
+	<p id="line3"> Or this one </p>
+	<p id="line4"> Or this one </p>
+	<p id="line5"> Or this one </p>
+	<form id="styleForm" style="display: none; width:100px; font-size: 15px; border: 1px solid black; padding: 10px; border-radius: 10px">
+		<button id="fontUp" class="formElements">Font size +</button><br><br>
+		<button id="fontDown" class="formElements">Font size -</button><br><br>
+		<input id="bold" type="checkbox" class="formElements"> Bold</checkbox>
+	</form>
+	<script>
+	var fontSize = 15;
+	var pSelect;
 
-function boxShow() {
-  $("#styleForm").css("display", "inline-block")
-}
+	function boxShow() {
+		pSelect = this;
+		$("#styleForm").css("display", "inline-block");
+	}
 
-$("p").on("click", boxShow);
-
-
-function styleForm() {
-  if (this.value = fontUp) {
-    $("p").css("font-size", fontSize + 5)
-    console.log(fontSize);
-  } else if (this.value = fontDown) {
-    $("p").css("font-size", fontSize - 5)
-  } else if (this.value = bold) {
-    $("p").css("font-weight", "900")
-  }
-}
-$("form").on("click", styleForm);
+	$("p").on("click", boxShow);
 
 
-</script>
+	function styleForm() {
+		if (this.id == "fontUp") {
+			$(pSelect).css("font-size", fontSize + 5);
+		} else if (this.id == "fontDown") {
+			$(pSelect).css("font-size", fontSize - 5);
+		} else if (this.id == "bold") {
+			$(pSelect).css("font-weight", "900");
+			console.log(pSelect);
+		}
+	}
+	$("form .formElements").on("click", styleForm);
+
+	</script>
 </body>
 
 </html>
